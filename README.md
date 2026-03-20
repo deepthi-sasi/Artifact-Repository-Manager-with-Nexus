@@ -23,10 +23,16 @@ Create Ubuntu Server (Droplet) - min 4GB RAM, 2 CPUs, 160 GB SSD Disk
 ##Install and Run Nexus on a Cloud Server - Part 2
 
 1.Make Nexus owner of the folders
+
    ![nexus folders ownership.png](images/nexus%20folders%20ownership.png)
+
 2.Start with nexus user
+
    ![nexus start.png](images/nexus%20start.png)
+
 3.Open port 8081 with firewall through DigitalOcean console
 
 4.Access from browser
+
   ![nexus access.png](images/nexus%20access.png)
+  
