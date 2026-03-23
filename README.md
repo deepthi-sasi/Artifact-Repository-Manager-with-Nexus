@@ -1,26 +1,23 @@
-###Demo Project:
+# Demo Project:
 
-###Run Nexus on Droplet and publish artifact to Nexus
+## Run Nexus on Droplet and publish artifact to Nexus
 
 Technologies Used:
 `Nexus, DigitalOcean, Linux, Java, Gradle, Maven`
 
 Project Description:
 
-##Install and configure Nexus from scratch on a clous server here Digital Ocean`
+## Install and configure Nexus from scratch on a cloud server here Digital Ocean
 
-##Summary of the steps:
+### Part 1 - Server setup
 
-Create Ubuntu Server (Droplet) - min 4GB RAM, 2 CPUs, 160 GB SSD Disk
-1.Open SSH port 22
+1. Create Ubuntu Server (Droplet) - min 4GB RAM, 2 CPUs, 160 GB SSD Disk
+2. Open SSH port 22
+3. Install Java 8
+4. Download and Install Nexus
+5. Create "nexus" user and group (with 'adduser nexus' command) - Best Practice: Run applications with own user.
 
-2.Install Java 8
-
-3.Download and Install Nexus
-
-4.Create "nexus" user and group (with 'adduser nexus' command) - Best Practice: Run applications with own user.
-
-##Install and Run Nexus on a Cloud Server - Part 2
+###  Part 2 - Configure & access Nexus
 
 1.Make Nexus owner of the folders
 
